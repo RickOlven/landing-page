@@ -165,3 +165,67 @@ body {
     font-weight: bold;
     text-align: right;
 }
+
+/* Call to Action Section */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: white;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    gap: 150px;
+    width: 800px;
+}
+
+.text-item p {
+    font-size: 12px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    width: 100px;
+}
+
+.text-item h3 {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #1F2937;
+}
+
+.signup-btn:hover {
+    background-color: white;
+    color: #1F2937;
+}
+
+.nav-links a:hover {
+    color: #3882F6;
+}
